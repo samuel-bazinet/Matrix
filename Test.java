@@ -12,7 +12,9 @@ public class Test {
         System.out.println("B = \n" + b + "\n");
 
         Matrix c = ops.multiply(a, b);
-        System.out.println("A * B = \n" + c);
+        System.out.println("A * B = \n" + c + "\n");
+
+        System.out.println("A^T = \n" + a.transpose());
     }
 
 }
